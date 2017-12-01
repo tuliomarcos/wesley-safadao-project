@@ -32,8 +32,8 @@ public class TelaInicial extends javax.swing.JFrame {
     private void FuncaoSafada (int d,int m,int a){
         float safado = (somatoria(m) + (a/100f)*(48-d));
         float anjo = (100 - safado);
-        lblAnjo.setText(String.format("%.2f",anjo));
-        lblVagabundo.setText(String.format("%.2f",safado));
+        lblAnjo.setText(String.format("%.0f",anjo));
+        lblVagabundo.setText(String.format("%.0f",safado));
        /*  lblMostrarD.setText(Float.toString(safado));
         lblMostrarM.setText(Integer.toString(m));
         lblMostrarA.setText(Float.toString(a));*/
